@@ -1,94 +1,81 @@
 # Privacy Policy for AP-OWO
 
-**Last Updated: April 28, 2026**
+**Last Updated: November 19, 2026**
 
 ## Introduction
 
-AP-OWO ("we," "our," or "the app") is a local music player and audio recording application. We are committed to protecting your privacy. This Privacy Policy explains how we handle your information.
+AP-OWO ("we," "our," or "the app") is a music player, recording studio and animation app. This policy explains what stays on your device, what usage information the app sends, and how to turn that off.
 
-## Information Collection and Use
+## Your content stays on your device
 
-**AP-OWO does not collect, transmit, or share any personal data.** All data remains on your device.
+Your music library, recordings, video takes, drawings, animations, photos you add, captions and project files **are stored only on your device**. We never upload them. They leave your device only when you choose to export or share them yourself (for example with the Share button).
 
-### Permissions Used
+## Usage statistics (Firebase Analytics)
 
-Our app requires the following permissions to function:
+To understand which features are used and to make the app better, AP-OWO uses **Google Firebase Analytics**. When it is on, the app sends:
 
-#### 1. **Audio Recording Permission (RECORD_AUDIO)**
-- **Purpose**: Enables the Studio feature to record audio for music creation
-- **How it's used**: Audio recordings are created when you use the in-app recording studio
-- **Storage**: All recordings are stored locally on your device only
-- **Sharing**: We do not upload, transmit, or share your recordings with anyone
+- **App usage**: which screens and panels are opened and for how long, which buttons and options are tapped, and which features are used (for example "exported a video", "added music", "used the fill tool").
+- **Feature details**: export settings and results (format, quality, length, file size, how long it took), detected song tempo, page counts, and similar numbers.
+- **Device information**: device model and type (phone/tablet), operating system version, screen size and pixel density, text-size setting, number of processor cores, app version, and approximate country (derived by Google from the connection).
+- **A random app-instance ID** created by Firebase to count unique installs. It is not linked to your name, email or phone number.
 
-#### 2. **Media Access Permissions (READ_MEDIA_AUDIO)**
-- **Purpose**: To scan and display your device's music library
-- **How it's used**: The app reads audio file metadata (song title, artist, album) to display your music collection
-- **Storage**: The app only reads existing files; it does not modify or copy them
-- **Sharing**: We do not upload or share your music library information
+**Never sent**: your recordings, music, drawings, photos, captions or other text you type, file or song names, contacts, or precise location. **The advertising ID is not collected** and analytics data is not used for advertising.
 
-#### 3. **Storage Access (READ_EXTERNAL_STORAGE)**
-- **Purpose**: To access audio files on older Android versions
-- **How it's used**: Same as Media Access permissions above
-- **Sharing**: We do not access any files except audio files for playback
+Data is processed by Google LLC under the [Google Privacy Policy](https://policies.google.com/privacy) and [Firebase data processing terms](https://firebase.google.com/terms/data-processing-terms), and kept for up to 14 months.
 
-#### 4. **Camera Permission (CAMERA)**
-- **Purpose**: Lets you film video takes in the Studio
-- **How it's used**: Only while the video capture screen is open; nothing is recorded until you press record
-- **Storage**: Video takes are stored locally inside the project on your device only
-- **Sharing**: We do not upload, transmit, or share your videos; exporting or sharing is always started by you
+**Turning it off**: Settings → Diagnostics → *Share usage statistics*. When off, nothing is sent.
 
-#### 5. **Notifications (POST_NOTIFICATIONS)**
-- **Purpose**: Shows the playback controls notification while music plays in the background
+## Crash log
 
-## Data Storage
+If the app hits an error, a short technical log is saved **on your device only** (Settings → Diagnostics). It is sent to us only if you choose to share it.
 
-- **All data is stored locally** on your device in the app's private storage directory
-- Audio recordings created in the Studio are saved to your device's internal storage
-- No data is transmitted to external servers
-- No analytics or tracking services are used
-- No user accounts or authentication required
+## Permissions Used
 
-## Your Rights
+#### 1. Microphone (RECORD_AUDIO)
+Records audio in the Studio. Recordings are stored only on your device.
 
-You have complete control over your data:
+#### 2. Music library (READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE on older Android)
+Shows your music collection and lets you pick songs for the Studio and animations. The app reads your audio files; it does not change or upload them.
 
-- **Delete recordings**: You can delete any recording directly from the app
-- **Uninstall**: Uninstalling the app removes all app data from your device
-- **Permissions**: You can revoke permissions at any time through your device settings (though this will limit app functionality)
+#### 3. Camera (CAMERA)
+Used only while you film a video take or shoot stop-motion pages. Pictures and videos are stored only on your device.
+
+#### 4. Notifications (POST_NOTIFICATIONS)
+Playback controls while music plays, and progress while a video exports in the background.
+
+#### 5. Foreground service
+Keeps an export running when you leave the app, with a visible progress notification.
 
 ## Third-Party Services
 
-AP-OWO does not integrate with any third-party services, advertising networks, or analytics platforms. The app operates entirely offline.
+- **Google Firebase Analytics**: usage statistics as described above (can be turned off).
+- **Google Play / App Store**: installing and updating the app.
+
+There are no ads and no advertising networks.
+
+## Your Rights
+
+- Turn usage statistics off at any time in Settings.
+- Delete any project, animation or recording in the app; uninstalling removes all app data from your device.
+- To ask about or request deletion of usage data linked to your app-instance ID, email us (see below).
+- Revoke permissions at any time in your device settings.
 
 ## Children's Privacy
 
-AP-OWO does not knowingly collect any information from children. The app does not collect data from users of any age.
+AP-OWO is not directed at children under 13 and does not knowingly collect personal information from them. Usage statistics contain no names, emails or content.
 
 ## Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date.
+We may update this policy. Changes are posted here with a new "Last Updated" date.
 
-## Data Security
+## Contact
 
-All data remains on your device and is protected by your device's security measures. We recommend:
-- Using a secure lock screen
-- Keeping your device's operating system updated
-- Only installing apps from trusted sources
-
-## Contact Information
-
-If you have questions about this Privacy Policy, you can contact us at:
-
-**Developer**: Sterin Saji  
-**Location**: Uxbridge, London, UK  
+**Developer**: Sterin Saji
+**Location**: Uxbridge, London, UK
 **Email**: hello@sterin.dev
 
 ## Summary
 
-**What we collect**: Nothing. All data stays on your device.  
-**What we share**: Nothing. We don't have servers or third-party services.  
-**Your control**: Complete. You own all your recordings and can delete them anytime.
-
----
-
-*This app is designed with privacy in mind. Your music and recordings never leave your device.*
+**Your content**: stays on your device; shared only when you share it.
+**Usage statistics**: screens, taps, time spent, feature use and device/screen info via Firebase Analytics, no advertising ID, and you can switch it off.
+**Ads**: none.
